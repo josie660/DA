@@ -5,7 +5,7 @@ requests
 plotly
 Pillow
 streamlit-lottie
-streamlit-authenticator
+streamlit-authenticator==0.1.5
 streamlit-option-menu
 openpyxl
 scikit-learn
