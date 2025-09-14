@@ -7,3 +7,4 @@ Pillow
 streamlit-lottie
 streamlit-authenticator
 streamlit-option-menu
+openpyxl
