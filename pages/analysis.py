@@ -4,11 +4,6 @@ from pathlib import Path
 import streamlit_authenticator as stauth
 import pandas as pd
 import plotly.express as px
-import sklearn as sk
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error, r2_score
 import numpy as np
 
 
@@ -105,7 +100,7 @@ def app():
                 fig2.update_traces(line=dict(color="#FF3333"))
                 st.plotly_chart(fig2)
         
-        app()
+app()
 
 
             
