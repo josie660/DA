@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+requests
+plotly
+Pillow
+streamlit-lottie
+streamlit-authenticator
+streamlit-option-menu
