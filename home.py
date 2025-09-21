@@ -11,6 +11,7 @@ st.set_page_config(
  
     initial_sidebar_state="expanded"
 )
+st.sidebar.write("")
 
 df=pd.read_excel('cleaned_data.xlsx')
 
