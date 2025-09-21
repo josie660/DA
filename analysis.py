@@ -81,7 +81,7 @@ def app():
           avg_price,
           names='MATIERE',
           values='average_price',
-          title='Average Price Distribution by Matière',color_discrete_sequence=px.colors.qualitative.Set3
+          title='Average Price Distribution by Subject',color_discrete_sequence=px.colors.qualitative.Set3
           )
            st.plotly_chart(ig)
 
