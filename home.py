@@ -39,16 +39,16 @@ if nav == "Home":
 
 
 elif nav == "Lists":
-    page = importlib.import_module("pages.booklists")
+    page = importlib.import_module("booklists")
     page.app()
    
 
 elif nav == "Contact":
-    page = importlib.import_module("pages.contactpage")
+    page = importlib.import_module("contactpage")
     page.app()
     
 elif nav == "Analysis": 
-    page = importlib.import_module("pages.analysis")
+    page = importlib.import_module("analysis")
     page.app()
     
 

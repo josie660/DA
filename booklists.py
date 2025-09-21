@@ -80,7 +80,7 @@ def app():
              #st.set_page_config(page_title="GIF DEMO", layout="centered")
              #st.image("the-little-prince.gif")
 
-app()
+
 
 
 

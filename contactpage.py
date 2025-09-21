@@ -15,7 +15,7 @@ def app():
         with open(filename) as f:
             st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-    load_css("pages/style.css")
+    load_css("style.css")
     with st.container():
             st.write("---")
             st.subheader("get in touch with us! you can send us orders or messages via email")
@@ -34,4 +34,4 @@ def app():
                 st.markdown(contact_form, unsafe_allow_html=True)
             with right_column:
                 st.empty()
-app()
+

@@ -100,7 +100,7 @@ def app():
                 fig2.update_traces(line=dict(color="#FF3333"))
                 st.plotly_chart(fig2)
         
-app()
+
 
 
             
