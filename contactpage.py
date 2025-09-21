@@ -8,6 +8,10 @@ from PIL import Image
 import plotly.express as px  
 
 def app():
+    st.set_page_config(
+   
+    initial_sidebar_state="expanded"
+     )
 
     df=pd.read_excel('cleaned_data.xlsx')
 

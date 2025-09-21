@@ -7,6 +7,10 @@ from PIL import Image
 import plotly.express as px  
 from streamlit_option_menu import option_menu
 import importlib 
+st.set_page_config(
+ 
+    initial_sidebar_state="expanded"
+)
 
 df=pd.read_excel('cleaned_data.xlsx')
 

@@ -8,6 +8,11 @@ import plotly.express as px
 from streamlit_option_menu import option_menu
 
 def app():
+    st.set_page_config(
+    
+    initial_sidebar_state="expanded"
+)
+
     df=pd.read_excel('cleaned_data.xlsx')
 
     st.set_page_config(page_title="book helper", page_icon=':books:',layout='wide',initial_sidebar_state="expanded")

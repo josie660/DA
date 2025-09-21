@@ -9,6 +9,11 @@ import numpy as np
 
 
 def app():
+    st.set_page_config(
+    
+    initial_sidebar_state="expanded"
+        )
+
     df=pd.read_excel('cleaned_data.xlsx')
 
     names=['marie jose marroun', 'mabelle marroun', 'reina marroun', 'rita akkary', 'perla']
