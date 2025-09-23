@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+plotly
+requests
+Pillow
+streamlit-lottie
+streamlit-option-menu
+streamlit-authenticator==0.1.5
+
